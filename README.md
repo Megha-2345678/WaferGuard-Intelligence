@@ -41,20 +41,28 @@ ONNX Model (model.onnx + model.onnx.data): ~9 MB
 How to Run the Code
 
 1. Clone Repository
+
 git clone https://github.com/yourusername/EdgeAI-Wafer-Defect-Classification.git
 cd EdgeAI-Wafer-Defect-Classification
 
 2. Create Virtual Environment
+
 python -m venv venv
+
 venv\Scripts\activate
 
 3. Install Dependencies
+
 pip install torch torchvision scikit-learn matplotlib seaborn onnx onnxscript
 
 4. Place Dataset in Below Order
+
 dataset/
+
    train/
+   
    valid/
+   
    test/
 
 5. Train Model
